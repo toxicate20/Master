@@ -1,0 +1,81 @@
+% Settings
+\newcommand{\doctitle}{Efficacy Of Dose Painting On Uncertain Biological Tumor Maps\\For Head And Neck Cancer Treatment}
+\newcommand{\doctype}{Master Thesis}
+\newcommand{\thesisauthor}{Alexander Runde}
+\newcommand{\matriculation}{123456}
+\newcommand{\academicyear}{2011/2012}
+\newcommand{\supervisor}{Prof. Dr. Uwe Oelfke}
+\newcommand{\cosupervisor}{Dr. Emily Heath \& Dr. Harald Keller}
+\newcommand{\degree}{Master Degree in Physics}
+\newcommand{\university}{Ruperto-Carola University of Heidelberg, Germany}
+\newcommand{\department}{German Cancer Research Center, Heidelberg}
+\newcommand{\logo}{contents/images/university_logo.png}
+\newcommand{\logowidth}{0.5 \linewidth}
+
+% Style Settings
+
+% - Document Class
+%\documentclass[dvipdfm,11pt,letterpaper,twoside,openright,english]{book}
+\documentclass[pdftex,11pt,letterpaper,twoside,openright,english]{book}
+% - ToC Depth
+\setcounter{tocdepth}{2}
+% - ToA Style
+\newcommand{\tableofacronymstyle}{longheaderborder}
+% - References Style
+%\newcommand{\mybibstyle}{ieeetr}
+\newcommand{\mybibstyle}{unsrt}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[pdftex]{graphicx}
+\usepackage{xfor}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+%\usepackage[nonumberlist,acronym,toc]{glossaries} 
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage[hyphens]{url}
+\usepackage{cite}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{epigraph}
+\usepackage[english]{babel}
+\usepackage[belowskip=-10pt,aboveskip=0pt]{caption}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{subfigure}
+
+% Pages layout
+\usepackage[top=35mm, bottom=25mm, left=35mm, right=35mm]{geometry}
+
+% Enable glossaries
+%\input{contents/other/glossary}
+%\makeglossaries
+
+% Interline
+\linespread{1.4}
+
+% PDF properties
+%\hypersetup{
+%colorlinks=false,
+%linktocpage=true,
+%plainpages=false,
+%pdfborder=0 0 0,
+%bookmarksopen=true,
+%pdftitle=\doctitle,
+%pdfauthor=\thesisauthor
+%}
+
+% Set initial pagenumbering to none
+%\setcounter{page}{0}
+\pagestyle{empty}
+
+% Indented Paragraph ;) - Use it like \begin{indentparagraph}{3cm}{your-paragraph}\end{indentparagraph}
+\newenvironment{indentparagraph}[1]{\begin{list}{}{\setlength{\leftmargin}{#1}}\item[]}{\end{list}}
+\newcommand{\specialcell}[2][c]{%
+\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+
+%hyperref
+\usepackage[pdftex, plainpages=false, pdfpagelabels]{hyperref}

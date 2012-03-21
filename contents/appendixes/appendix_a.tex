@@ -1,0 +1,15 @@
+%
+As hypoxia will decrease radio sensitivity the dose has to be increased to achieve the same biological effect. The reference effect is derived from the prescribed dose $D_p$ with $\varepsilon_p = \alpha_X D_p + \beta_X D_p^2$. The compensating dose $D$ to overcome the effects of hypoxia is
+\begin{equation}
+\underbrace{\alpha_X D_p + \beta_X D_p}_{=\varepsilon_p} \mathop{=}\limits^! \frac{\alpha_X}{\mathrm{HRF}} D + \frac{\beta_X}{\mathrm{HRF}^2} D^2\\
+\end{equation}
+Bringing this into a solvable quadratic form yields
+\begin{eqnarray}
+\frac{\alpha_X}{\mathrm{HRF}} D + \frac{\beta_X}{\mathrm{HRF}^2} D^2 - \varepsilon_p  &=& 0\\
+D^2 + \mathrm{HRF}\cdot\frac{\alpha_X}{\beta_X}\cdot D - \frac{\mathrm{HRF}^2}{\beta_X}\varepsilon_p &=& 0.
+\end{eqnarray}
+The two solutions to this equation are
+\begin{equation}
+D_{1,2} = \mathrm{HRF}\left[-\frac{\alpha_X}{2\beta_X} \pm \sqrt{\left(\frac{\alpha_X}{2\beta_X}\right)^2 + \frac{\varepsilon_p}{\beta_X}}\right]
+\end{equation}
+The negative solution is dropped as it generated a negative dose result and is therefore unphysical. Dose is linearly scaled up with the HRF to compensate for hypoxia and achieve the prescribed effect $\varepsilon_p$. 
