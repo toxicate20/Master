@@ -1,10 +1,10 @@
 % chapter 2: Radiation Therapy with Photons
 
-\section{Energy loss of photons in matter}
+\section{Interaction of photons and electrons in matter}
 \begin{figure}[hbt]
 \centering
 \includegraphics[scale = 0.42]{/Users/alex/Master/contents/images/feynmangraphs.eps}
-\caption{Overview on the physical effect responsible for the energy loss of photons in matter. Photoelectric effect (left), Compton effect (middle) and Pair production (right).}
+\caption{Overview on the physical effect responsible for the energy loss of photons in matter. Photoelectric effect with nucleus [black circle] (left), Compton effect (middle) and Pair production (right).}
 \label{fig:feynmangraphs}
 \end{figure}
 In particle physics, the photon ($\gamma$) is the mediator for the electromagnetic force. It is neutral and has zero mass. The latter is by virtue of the gauge invariance of the photon field's Lagrange function in quantum field theory. The photon moves with the speed of light $c \approx 3\times10^8$ m/s. Since it is electrically neutral, it will not lose energy via the Coulomb force when interacting with matter. Instead, photons will travel a particular distance before being annihilated. The energy transfer of photons to matter is a combination of three different physical effects: Photoelectric effect, Compton scattering and Pair production (cf. figure \ref{fig:feynmangraphs}). All of them are involved in the gradual energy loss of the photon, but are dependent on the initial energy and material that the photon is passing through. The distance travelled by a photon in matter is governed by a statistical process depending on a linear attenuation coefficient $\mu$, describing the probability of the matter penetration by the photon. All three effects have a contribution to its total travelling distance.
@@ -107,13 +107,13 @@ For charged particles, the linear energy transfer (LET) defines the energy trans
 \mathrm{LET} = \frac{\mathrm{d}E_\Delta}{\mathrm{d}x},
 \end{equation}
 where $E_\Delta$ is the energy loss due to the collisions of the charged particle with the material minus the kinetic energy of all secondary electrons with energy $E>E_\Delta$. The larger the LET, the more secondary electrons are induced, which creates a larger energy deposition in the material.
-\section{Radiation biology of photons}
+\section{Radiation biology}
 \subsection{DNA radiation damage}
 Biological damage caused by ionizing radiation is closely linked to the damage response of DNA. DNA damage can be quantified by looking at the DNA strand breaks, caused by charged particle tracks. DNA itself is constructed as a double-helix structure consisting of two strands, which are connected by a hydrogen bond. The so called sugar-phosphate group is the 'backbone' of each strand. If a single strand is broken, it does not necessarily lead to cell killing, as the DNA is able to repair itself by using the opposite strand as a template for its repair mechanism. If the repair is incomplete or incorrect, it leads to DNA mutation. In most cases, single-strand breaks (SSB) can either be repaired or lead to mutation due to misrepair. Double-strand breaks (DSB), on the other hand, are more difficult to repair. If a break in two strands is created within a few base pairs of the sugar-phosphate backbone, it creates a DSB. These DSB are one of the main sources for lethal lesions in DNA, since they create cell kill, carcinogenesis or mutation due to DNA misrepair. DSBs can occur either through direct ionization, or free radicals, created by the incident radiation. The charged particle tracks forming DNA strand breaks for photons are usually created by electrons \cite{Alper}. Figure \ref{fig:DNABreaks} shows all different scenarios linked to SSB and DSB induced radiation damage in DNA. 
 \begin{figure}[ht]
 \centering
 \includegraphics[scale = 0.7]{/Users/alex/Master/contents/images/DNABreaks.eps}
-\caption{Damage mechanism of single and double strand breaks in DNA through ionizing radiation. Single stand breaks are only assigned to radiation damage that is created by one particle track, while double stand breaks are generated either by two seperate single tracks or a single track creating single strand breaks in two DNA strands. }
+\caption{Damage mechanism of single and double strand breaks in DNA through ionizing radiation. Single stand breaks are only assigned to radiation damage that is created by one particle track, while double stand breaks are generated either by two seperate single tracks or a single track creating single strand breaks in two DNA strands. Figure adapted from reference \cite{FreseThesis}.}
 \label{fig:DNABreaks}
 \end{figure}
 \subsection{The linear-quadratic model}
@@ -126,7 +126,7 @@ Here $G$ is the time dependent Lea-Catcheside dose protraction factor \cite{pmid
 D = \frac{\alpha}{\beta}.
 \end{equation}
 In the linear quadratic model, radiation damage is categorized into linear and quadratic dose contributions. These contributions are dependent on the tissue that is irradiated. In table \ref{tab:oartissueparameter} and \ref{tab:tumortissueparameter} different $\alpha$ and $\beta$ values are shown.
-\begin{table}[htb]
+\begin{table}[tb]
 \centering
 \footnotesize
 \begin{tabular}{llcccc}
@@ -202,7 +202,7 @@ The OH$\cdot$ can either recombine with another OH$\cdot$ to for hydrogen peroxi
 \begin{figure}[tb]
 \centering
 \includegraphics[scale = 0.4]{/Users/alex/Master/contents/images/HIFAlpha.eps}
-\caption{HIF-1$\alpha$ mechanism for the transcription of proteins in DNA that increase cell survival in tumour cells in hypoxic environments.}
+\caption{HIF-1$\alpha$ mechanism for the transcription of proteins in DNA that increase cell survival in tumour cells in hypoxic environments. Figure adapted from reference \cite{pmid18523070}}
 \label{fig:HIFAlpha}
 \end{figure}
 A healthy cell in normal tissue which is deprived of oxygen will die. Tumour cells on the other hand are generally exposed to chronic hypoxia as their growth will lead to lack of vasculature to supply inner regions with enough oxygen. Lack of oxygen can then lead to decreased radiation response and to an underestimated cell kill. This is also true for chemotherapy as the poor perfusion can lead to limited access to certain tumour areas. The underlying biochemistry of hypoxia in tumours has become more and more complex with the appearance of accurate description of transcription factors. For hypoxia the \textit{hypoxia inducible factor 1} (HIF-1) is the transcriptions factor that leads to the higher cell survival. This is achieved by up-regulating more than 100 proteins that promote survival and especially the aggressiveness of the hypoxic tumour cells. The mechanism for HIF-1 in hypoxic and oxic conditions can be described as follows \cite{pmid13130303}:
@@ -210,17 +210,17 @@ A healthy cell in normal tissue which is deprived of oxygen will die. Tumour cel
 \item \textit{Oxic conditions: }If oxygen is present with HIF-1$\alpha$, it becomes a hydroxyl. Afterwards it is transformed to a proteasome (regulator for protein concentration and degradation of misfolded proteins) via ubiquitination. 
 \item \textit{Hypoxic conditions: } If oxygen is absent, HIF-1$\alpha$ will transform into HIF-1$\beta$. This is accomplished by the translocation of HIF-1$\alpha$ to the nucleus. HIF-1 is the heterodimer (complex of a nucleic acid and a protein) of HIF-1$\beta$, which is the transcription factor for more than 100 hypoxia response elements on the chromosomes. All elements share a specific sequence (5$^\prime$-TACGTG-3$^\prime$) that will activate more than 100 proteins supporting cell survival.
 \end{itemize}
-Figure \ref{fig:HIFAlpha} shows a detailed schematic description of the HIF-1 mechanism for increased cell survival of tumour cells in hypoxic environments. Hypoxia can occur in two different forms: Chronic and acute hypoxia. Chronic hypoxia is a consequence of oxygen consumption by tumour cells that are inadequately perfused due to the distance between the cancer cells and the nearest blood vessels. Acute hypoxia is the result of the temporary closing of blood vessels due to the malformed vasculature of the tumour \cite{Simon}. Both hypoxia types contribute to general tumour hypoxia and the poor outcome of radio treatment \cite{pmid14516104}. One of the major differences between these two hypoxia categories, is their time scale variance. While acute hypoxia will show larger fluctuations, chronic hypoxia is more stable. As both hypoxia types possess HIF-1 as its transcription factor, hypoxia tracers are not able to distinguish between them. A mathematical approach to a differentiation of acute and chronic hypoxia is discussed in chapter \ref{chapt:chronicacute}.
+Figure \ref{fig:HIFAlpha} shows a detailed schematic description of the HIF-1 mechanism for increased cell survival of tumour cells in hypoxic environments. Hypoxia can occur in two different forms: Chronic and acute hypoxia. Chronic hypoxia is a consequence of oxygen consumption by tumour cells that are inadequately perfused due to the distance between the cancer cells and the nearest blood vessels. Acute hypoxia is the result of the temporary closing of blood vessels due to the malformed vasculature of the tumour \cite{Simon}. Both hypoxia types contribute to general tumour hypoxia and the poor outcome of radio treatment \cite{pmid14516104}. One of the major differences between these two hypoxia categories, is their time scale variance. While acute hypoxia will show larger fluctuations, chronic hypoxia is more stable. As both hypoxia types possess HIF-1 as its transcription factor, hypoxia tracers are not able to distinguish between them.
 \subsection{Impact of hypoxia on cell survival}
-Hypoxia will decrease the radio sensitivity of tumour cells. In terms of the linear quadratic survival model, this decrease affects the radio response parameters $\alpha$ and $\beta$. \textit{Carlson et al.} \cite{pmid17022202} introduced a method to incorporate the impact of hypoxia into the linear quadratic cell survival model by using only a single parameter. The number of cells, surviving after being irradiated with a dose $D$ under aerobic conditions is
+Hypoxia will decrease the radio sensitivity of tumour cells. In terms of the linear quadratic survival model, this decrease affects the radio response parameters $\alpha$ and $\beta$. \textit{Carlson et al.} \cite{pmid17022202} introduced a new variable called hypoxia reduction factor (HRF) incorporate the impact of hypoxia into the linear quadratic cell survival model by using only a single parameter. The HRF concept is equal to an approach used by \textit{Toma-Dasu et al.} \cite{pmid21871003} using the OER. The number of cells, surviving after being irradiated with a dose $D$ under aerobic conditions is
 \begin{equation}
-S(D) = \exp\left(\frac{\alpha_A}{\mathrm{HRF}}D + \frac{\beta_A}{\mathrm{HRF}^2}D^2\right).
+S(D) = \exp\left(\frac{\alpha}{\mathrm{HRF}}D + \frac{\beta}{\mathrm{HRF}^2}D^2\right).
 \end{equation}
-Here $\alpha_A$ and $\beta_A$ are radio sensitivity parameters under aerobic conditions. For low-LET radiation, $\alpha$ represents the quantity of lethally misrepaired and unrepaired double-strand breaks, and $\beta$ represents the quantity of lethal exchange-type chromosome aberrations formed through binary misrepair of two separate DSBs \cite{pmid18363426}. As this work is using photon beams for treatment planning, $\alpha_A$ and $\beta_A$ are assumed to be the radio response parameters for photons $\alpha_X$ and $\beta_X$. HRF is the hypoxia reduction factor, which a derived quantity from the current oxygen conditions in a voxel \cite{pmid21183291}.
+Here $\alpha$ and $\beta$ are radio sensitivity parameters under aerobic conditions. For low-LET radiation, $\alpha$ represents the quantity of lethally misrepaired and unrepaired double-strand breaks, and $\beta$ represents the quantity of lethal exchange-type chromosome aberrations formed through binary misrepair of two separate DSBs \cite{pmid18363426}. As this work is using photon beams for treatment planning, $\alpha$ and $\beta$ are assumed to be the radio response parameters for photons $\alpha_X$ and $\beta_X$. HRF is the hypoxia reduction factor, which a derived quantity from the current oxygen conditions in a voxel \cite{pmid21183291}.
 \begin{equation}\label{eq:hrfmodel}
 \mathrm{HRF} = \frac{Km + p}{K+p}
 \end{equation}
-The functional form of HRF resembles a sigmoidal shape as it describes the clinical data best. The two parameters driving the transformation of oxygen partial pressure values $p$ are $m$, the maximum HRF and $K$, which can be interpreted by inserting $p=K$ yielding HRF = $(m+1)/2$. The HRF concept is equal to an approach used by \textit{Toma-Dasu et al.} \cite{pmid21871003} using the OER. In general the distribution of oxygen partial pressure $p$ in tumour cells is a diffusional process and is dependent on the distance to the capillary wall $p(r)$ \cite{pmid5067983}.
+The functional form of HRF resembles a sigmoidal shape as it describes the clinical data best. The two parameters driving the transformation of oxygen partial pressure values $p$ are $m$, the maximum HRF and $K$, which can be interpreted by inserting $p=K$ yielding HRF = $(m+1)/2$. In general the distribution of oxygen partial pressure $p$ in tumour cells is a diffusional process and is dependent on the distance to the capillary wall $p(r)$ \cite{pmid5067983}.
 \begin{table}[tb]
 \small
 \centering
@@ -245,7 +245,7 @@ Study by &  $m$ & $K$ [mmHg] & Comment\\
 \begin{figure}[htb]
 \centering
 \includegraphics{/Users/alex/Master/contents/images/HRFModel.eps}
-\caption{HRF model fit to original data from \textit{Carlson et al.}\cite{pmid21183291}. The new fit to the original data allowed an estimate on the error on $K$ and $m$ for the robustness analysis in the later part of this work.}
+\caption{HRF model fit to original data from \textit{Carlson et al.}\cite{pmid21183291}. The new fit to the original data allowed an estimate on the error on $K$ and $m$ for the robustness analysis in chapter \ref{chapter:6}.}
 \label{fig:HRFModel}
 \end{figure}
 The model parameters $K$ and $m$ are generally unknown and have to be retrieved by fitting measured data. As HRF is basically built upon the same mathematical concept as OER, it is possible to reuse and transform measurements for OER. This can be done by dividing the maximum OER by the OER for each level of oxygenation. Table \ref{tab:modelparameter} gives an overview over all conducted searches for these model parameters and their respective mean values and standard deviations. The data from \textit{Carlson et al.}\cite{pmid21183291} have been reused to calculate the error on the fit, as it was not part of the publication. While the maximum HRF value $m$ value seem to be largely consistent to another, the $K$ value has a large spread. One of the reasons for these deviations is that all measurements conducted by \textit{Cullen et al.}\cite{pmid4616914, pmid1084867} are from the 1970s and exhibit larger errors in contrast to the measurement from  \textit{Carlson et al.}. The combined values for $K$ and $m$ in table \ref{tab:modelparameter} have been computed with a weighted mean to account for the large error differences in all presented measurements
@@ -258,34 +258,17 @@ The error on the combined value is the variance of the weighted mean of all meas
 \end{equation}
 The impact of HRF in radiotherapy can be derived by understanding its impact on the delivered biological effect. As the HRF decreases the radio response to radiation damage, the delivered effect becomes smaller as $\alpha$ and $\beta$ are scaled down. To compensate for this, either of two things have to done, to account for the decreased radio sensitivity:
 \begin{enumerate}
-\item Increase dose to a value, where the delivered effect with decreased radio sensitivity is equal to the prescribed effect under aerobic conditions. The dose $D$ to compensate for hypoxia can be calculate in terms of prescribed effect $\varepsilon_P = \alpha_XD_p + \beta_XD_p^2$ and prescribed dose $D_p$ (cf. Appendix \ref{appendix:a} for derivation)
+\item Increase dose to a value, where the delivered effect with decreased radio sensitivity is equal to the prescribed effect under aerobic conditions. The dose $D$ to compensate for hypoxia can be calculated in terms of prescribed effect $\varepsilon_P = \alpha_XD_p + \beta_XD_p^2$ and prescribed dose $D_p$ (cf. Appendix \ref{appendix:a} for derivation)
 \begin{equation}\label{eq:dosecompensation}
 D = \mathrm{HRF}\left[\sqrt{\left(\frac{\alpha_X}{2\beta_X}\right)^2 + \frac{\varepsilon_p}{\beta_X}}-\frac{\alpha_X}{2\beta_X}\right].
 \end{equation}
-The dose is linearly scaled to the HRF within a voxel. If the usual prescription in a voxel is 70 Gy, a HRF of 2 implies that 140 Gy are necessary to create the same biological effect in this hypoxic area. As seen in table \ref{tab:modelparameter}, the maximum HRF is $m=2.82\pm 0.05$. Therefore in fully hypoxic areas with $p=0$ mmHg, the dose has to be increased with a factor of 2.82.
-\item Administrate radio sensitizers to compensate for the decreased radio sensitivity. The effect on the biological effect can be summarized into the sensitizer enhancement ratio (SER). SER is dependent on the drug concentration $c$ and the current oxygen partial pressure $p(r)$, while the survival then reads as \cite{pmid21183291}
+The dose is linearly scaled to the HRF within a voxel. If the usual prescription in a voxel is 70 Gy, a HRF of 2 implies that 140 Gy are necessary to create the same biological effect in this hypoxic area. As seen in table \ref{tab:modelparameter}, the maximum HRF is $m=2.82\pm 0.05$. Therefore in fully hypoxic areas with $p=0$ mmHg, the dose has to be increased by a factor of 2.82.
+\item Administer radio sensitizers to compensate for the decreased radio sensitivity. The effect on the biological effect can be summarized into the sensitizer enhancement ratio (SER). SER is dependent on the drug concentration $c$ and the current oxygen partial pressure $p(r)$, while the survival then reads as \cite{pmid21183291}
 \begin{equation}
 S(D) = \exp\left(\frac{\alpha_A\cdot\mathrm{SER}}{\mathrm{HRF}}D + \frac{\beta_A\cdot\mathrm{SER}^2}{\mathrm{HRF}^2}D^2\right).
 \end{equation}
 The administration of radio sensitizers is not part of this work, but should be considered as another way of decreasing the radio desensitization of tumour cells via acute and chronic hypoxia. If general dose painting should not prove feasible due to high dose fractions induced by hypoxia, radio sensitizers can decrease the effects this mechanism.
 \end{enumerate}
-\subsection{Assessment of chronic and acute hypoxia}\label{chapt:chronicacute}
-As mentioned in chapter \ref{chap:hypoxiaorigin}, hypoxia can be categorized into chronic and acute hypoxia. Inclusion of acute hypoxia can lead to overestimation of hypoxia since it is transient and is is subject to temporal variance. To quantify the fractions of chronic and acute hypoxia \textit{Wang et al.} \cite{pmid19928070} proposed a model based on the SUV. The model assumes that both hypoxia types contribute to the total tracer uptake $H$
-\begin{equation}
-\mathrm{H} = \mathrm{H}_\mathrm{a} + \mathrm{H}_\mathrm{c},
-\end{equation}
-where $ \mathrm{H}_\mathrm{a}$ is the contribution of the acute and $ \mathrm{H}_\mathrm{c}$ of the chronic hypoxia to the tracer uptake. To distinguish two hypoxia types with the Wang model, it is necessary to analyze two functional images (such as positron emission tomography, cf. \ref{chapter:3}) of the same patient. This is due to the fact that only acute hypoxia shows a large temporal variance, while chronic hypoxia is seen as a constant. The total uptake in two functional images is
-\begin{equation}
-\mathrm{H}_i = \mathrm{H}_\mathrm{a,i} + \mathrm{H}_\mathrm{c} \hspace{0.5cm}\mathrm{for}\hspace{0.5cm}i=1,2
-\end{equation}
-Afterwards, all uptake values in the same voxels from the two functional images are sorted into high H$_\mathrm{h}$ and small H$_\mathrm{s}$ readings. The fraction of high uptakes H$_\mathrm{h}$ with respect to acute hypoxia is denoted $\omega = \mathrm{H}_\mathrm{ah}/\mathrm{H}_\mathrm{h}$. Defining $x = (\mathrm{H}_\mathrm{h} - \mathrm{H}_\mathrm{s})/\mathrm{H}_\mathrm{h}$ gives the following relation
-\begin{equation}
-\omega = \rho x^\beta,
-\end{equation}
-where $\beta=0.6$ is derived via Monte-Carlo simulation and $\rho$ can be calculated via an iterative best fit to a Gaussian distribution. For voxels that have high readings H$_\mathrm{h}$, the chronic contribution can be calculated via
-\begin{equation}
-\mathrm{H}_\mathrm{c} = (1-\rho x^\beta)\mathrm{H}_\mathrm{h}.
-\end{equation}
 \section{Treatment planning}
 \subsection{Dose delivery with IMRT}
 All treatment plans presented in this work are intensity modulated radiotherapy (IMRT) plans. IMRT has been proposed by Brahme \textit{et al.} in 1982 \cite{pmid7146095}, while the clinical solution to the inverse IMRT optimization problem has been formulated by Webb in 1989 \cite{pmid2682694} inferring the minimization of a objective function via simulated annealing \cite{pmid16790913}. The form of the objective function can differ in different treatment planning systems. Generally, objective functions are quadratic and describe the difference between a desired dose in a voxel from a dose prescription and the current dose calculated in the optimization step. Chapter \ref{chap:objectivefunctions} describes in more detail, how \textit{KonRad} implements such an objective function for physical dose and biological effect optimizations. Due to the physical nature of the optimization problem, the quadratic function does not have a local minimum, which allowed the implementation of a fast gradient approach to find the minimum instead \cite{pmid2243845}. The delivery of IMRT has been shown by Convery and Rosenbloom in 1992 \cite{Convery_Rosebloom_1992}, which was later used for MLC based IMRT treatment \cite{pmid8690638}. \\The intensity modulation achieved in IMRT can only be accomplished laterally to the the incident beam direction for photons. For protons and heavy ions, the finite range of particles allows a three dimensional variation of the intensity modulation \cite{pmid10071883}, also referred to as 3D IMPT.
@@ -308,9 +291,9 @@ where $\overline{D}_v$ is the respective prescribed absorbed dose for volume $v$
 \begin{equation}
 D_i(\mathbf{w}) = \sum\limits_{j=1}^{N_{\mathrm{DB}}} D_{ij}w_j,
 \end{equation}
-with $D_{ij}$ being the dose matrix, and $N_{\mathrm{DB}}$ the number of dosebursts. The function $|x|_+$ is defined as 0 for $x\leq0$ and $x$ if $x>0$.
+with $D_{ij}$ being the dose matrix, and $N_{\mathrm{DB}}$ the number of dosebursts. The function $|x|_+$ is defined as 0 for $x\leq0$ and $x$ if $x>0$. Before the optimization, the dose matrix $D_{ij}$ has to be calculated. This calculate has to be executed for every bixel $j$ and voxel $i$. \textit{KonRad} uses a finite pencil beam dose calculation model\cite{nill}.
 \subsection{Dose calculation \& biological effect}
-Before the optimization, the dose matrix $D_{ij}$ has to be calculated. This calculate has to be executed for every bixel $j$ and voxel $i$. \textit{KonRad} uses a finite pencil beam dose calculation model\cite{nill}. To account for biological properties in the biological optimization, the $D_{ij}$ approach has been extended in this work. As the biological effect depends on the radio response parameters $\alpha$ and $\beta$ is it useful to introduce matrices. Due to mathematical reasons (cf. equation \ref{eq:betadose}) it is important to store the square-root of the $\beta_i$ in the $\beta_{ij}$ matrix. This is due to the physical nature of radiation superimposition: If more than one doseburst hits a voxel $i$ one needs to superimpose the effects of the radiation. For the radio response parameters $\alpha$ and $\beta$ the superimposition can be calculate in the following way \cite{pmid7413933} \cite{pmid16757867}
+To account for biological properties in the biological optimization, the $D_{ij}$ approach has been extended in this work. As the biological effect depends on the radio response parameters $\alpha$ and $\beta$ is it useful to introduce matrices. Due to mathematical reasons (cf. equation \ref{eq:betadose}) it is important to store the square-root of the $\beta_i$ in the $\beta_{ij}$ matrix. This is due to the physical nature of radiation superimposition: If more than one doseburst hits a voxel $i$ one needs to superimpose the effects of the radiation. For the radio response parameters $\alpha$ and $\beta$ the superimposition can be calculate in the following way \cite{pmid7413933} \cite{pmid16757867}
 \begin{equation}\label{eq:betadose}
 \alpha = \frac{1}{D}\sum\limits_{i=1}^N\alpha_i D\hspace{1cm}\sqrt{\beta} = \frac{1}{D}\sum\limits_{i=1}^N\sqrt{\beta_i}D_i.
 \end{equation}
