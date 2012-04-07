@@ -265,16 +265,16 @@ The implementation of biological dose painting uses all assumptions made in chap
 \begin{table}[b]
 \centering
 \small
-\begin{tabular}{ccc}
+\begin{tabular}{cccc}
 \toprule
-pO2 (VOI) & HRF & Clinical \% of GTV\\
+pO2 (VOI) & HRF & Clinical \% of GTV & FMISO SUV\\
 \midrule\\
-$\leq$ 2.5 mmHg (GTV$_{2.5}$) & 1.80 $\pm$ 0.04 & 16.09 $\pm$ 4.65\\\\
-$\leq$ 5.0 mmHg (GTV$_{5.0}$) & 1.51 $\pm$ 0.03 & 36.38 $\pm$ 6.80\\\\
-$\approx$ 10.0 mmHg (GTV)& 1.30 $\pm$ 0.01 & 100\\\\
+$\leq$ 2.5 mmHg (GTV$_{2.5}$) & 1.80 $\pm$ 0.04 & 16.09 $\pm$ 4.65& 2.28\\\\
+$\leq$ 5.0 mmHg (GTV$_{5.0}$) & 1.51 $\pm$ 0.03 & 36.38 $\pm$ 6.80 & 1.78\\\\
+$\approx$ 10.0 mmHg (GTV)& 1.30 $\pm$ 0.01 & 100 & 1.23\\\\
 \bottomrule\\
 \end{tabular}
-\caption{HRF values for different hypoxic regions in head and neck patients. Parameters for calculations for HRF$_0$ are $m$ = 2.82 $\pm$ 0.05 and $K$ = 1.94 $\pm$ 0.13 mmHg. Errors were calculated using the Gaussian error propagation method.}
+\caption{HRF values for different hypoxic regions in head and neck patients. Parameters for calculations for HRF are $m$ = 2.82 $\pm$ 0.05 and $K$ = 1.94 $\pm$ 0.13 mmHg. Errors were calculated using the Gaussian error propagation method. Table also shows the FMISO SUVs that have been chosen to achieve the correct pO2 values from the oxygen model.}
 \label{tab:HRFparameters}
 \end{table}
 No FMISO images were available for the 10 patients in this study. Therefore, artificial PET images were generated for this thesis. A small software was written to generate PET images based on the patients volumes of interest. \textit{PETCreate3} is a fast C-based PET image generator coupled with a point-in-polygon (PIP) algorithm. A number of PIP algorithms has been developed after its early description in 1974 \cite{Sutherland}. \textit{PETCreate3} uses a winding number algorithm, which utilizes the fact that the sum of all angles formed by the point of interest with the constituent points of a polygon will add up to multiples of 2$\pi$, if the considered point lies within the polygon.\\The construction of hypoxic volumes is based on the GTV for all patients. The GTV was assumed to be hypoxic with  pO2 = 10 mmHg. Smaller hypoxic sub volumes representing the 5.0 mmHg and 2.5 mmHg hypoxia levels were created by applying negative safety margins to the GTV. The volumes were created with the virtual treatment planning software \textit{VIRTUOS}. As GTVs can differ in size and form, the accuracy of this construction mechanism can fluctuate, as the smallest applicable safety margin in \textit{VIRTUOS} is 1 mm.\\The general goal of this approach was to create volumes with properties shown in table \ref{tab:HRFparameters}. According to the pO2 model, the oxygen partial pressure of 2.5 mmHg and 5.0 mmHg represent specific HRF values, which can also be seen in table \ref{tab:HRFparameters}. In order to achieve the same biological effect as a prescribed dose of 70 Gy to an oxic volume, a dose $D = 126$ Gy has to be delivered if this volume has an oxygen partial pressure of 2.5 mmHg. In contrast to other dose painting approaches, biological dose painting can derive this dose from a model that has been realigned with clinical data.

@@ -1,5 +1,5 @@
 %
-All patients presented in this thesis have been provided with a clinical plan approved by a physician or radiation oncologist. All plans follow the HN06 trail dose constraints. Due to the incomparability of patients treatment volumes, every patient is presented with his own table.
+All patients presented in this thesis have been provided with a clinical plan approved by a physician or radiation oncologist. All plans follow the HN06 trail dose constraints. If the dose value for a critical structure is printed in \textbf{bold letters}, then it is majorly overlapping with the treatment volumes and was not evaluated in terms of iso-toxic treatment.
 
 % pat 1 pat 2 
 \begin{sidewaystable}[p]
@@ -13,7 +13,7 @@ All patients presented in this thesis have been provided with a clinical plan ap
  \cmidrule(r){1-1} \cmidrule(r){2-3}\cmidrule(r){4-5}
  Volume name & $D_\mathrm{mean}$ & $D_\mathrm{max}$ & $D_\mathrm{mean}$ & $D_\mathrm{max}$\\
  \midrule\\
- BRAIN & 14.13 & 75.18 & 12.62 & 76.65 \\ BRSTEM & 19.96 & 52.06 & 17.93 & 48.63 \\ CHIASM & 16.27 & 23.04 & 10.49 & 12.46 \\ CORD & 15.25 & 42.93 & 15.32 & 44.56 \\ ESOPHAGUS & 22.53 & 53.51 & 20.93 & 50.06 \\ LARYNX & 40.20 & 66.07 & 29.07 & 64.00 \\ LEYE & 6.39 & 17.01 & 4.72 & 18.92 \\ LIPS & 17.94 & 50.01 & 26.72 & 41.30 \\ LLENS & 5.29 & 6.52 & 3.60 & 4.80 \\ LNECK & 40.62 & 77.64 & 50.90 & 115.46 \\ LOPTIC & 14.55 & 34.01 & 9.26 & 19.42 \\ LPAROTID & 38.62 & 74.63 & 65.8 & 85.5 \\ LPLEXUS & 32.02 & 67.39 & 30.95 & 67.32 \\ MANDIBLE & 42.03 & 75.01 & 39.40 & 74.74 \\ POSTCRICOID & 44.26 & 62.37 & 35.80 & 59.17 \\ REYE & 5.59 & 11.73 & 4.68 & 14.38 \\ RLENS & 4.39 & 5.78 & 4.10 & 6.95 \\ RNECK & 39.67 & 77.33 & 50.32 & 89.11 \\ ROPTIC & 10.60 & 17.71 & 8.55 & 11.74 \\ RPAROTID & 34.53 & 75.19 & 34.26 & 77.37 \\ RPLEXUS & 30.42 & 65.96 & 27.40 & 66.83 \\\\ \bottomrule\\ CTV56 & 60.28 & 78.49 & 76.2 & 119.8 \\ CTV70 & 68.47 & 78.49 & 81.1 & 119.8 \\ GTV & 68.94 & 78.49 & 93.4 & 119.8 \\ GTV50 & - & - & 95.5 & 119.8 \\ GTV25 & - & - & 92 & 119.8 \\ PTV56 & 34.87 & 78.49 & 71.7 & 119.8 \\ PTV70 & 61.54 & 78.49 & 76.3 & 119.8 \\\\
+ BRAIN & 14.13 & 75.18 & 12.62 & 76.65 \\ BRSTEM & 19.96 & 52.06 & 17.93 & 48.63 \\ CHIASM & 16.27 & 23.04 & 10.49 & 12.46 \\ CORD & 15.25 & 42.93 & 15.32 & 44.56 \\ ESOPHAGUS & 22.53 & 53.51 & 20.93 & 50.06 \\ LARYNX & 40.20 & 66.07 & 29.07 & 64.00 \\ LEYE & 6.39 & 17.01 & 4.72 & 18.92 \\ LIPS & 17.94 & 50.01 & 26.72 & 41.30 \\ LLENS & 5.29 & 6.52 & 3.60 & 4.80 \\ LOPTIC & 14.55 & 34.01 & 9.26 & 19.42 \\ LPAROTID & 38.62 & 74.63 & 65.8 & 85.5 \\ LPLEXUS & 32.02 & 67.39 & 30.95 & 67.32 \\ MANDIBLE & 42.03 & 75.01 & 39.40 & 74.74 \\ POSTCRICOID & 44.26 & 62.37 & 35.80 & 59.17 \\ REYE & 5.59 & 11.73 & 4.68 & 14.38 \\ RLENS & 4.39 & 5.78 & 4.10 & 6.95 \\ ROPTIC & 10.60 & 17.71 & 8.55 & 11.74 \\ RPAROTID & 34.53 & 75.19 & 34.26 & 77.37 \\ RPLEXUS & 30.42 & 65.96 & 27.40 & 66.83 \\\\ \bottomrule\\ CTV56 & 60.28 & 78.49 & 76.2 & 119.8 \\ CTV70 & 68.47 & 78.49 & 81.1 & 119.8 \\ GTV & 68.94 & 78.49 & 93.4 & 119.8 \\ GTV50 & - & - & 95.5 & 119.8 \\ GTV25 & - & - & 92 & 119.8 \\ PTV56 & 34.87 & 78.49 & 71.7 & 119.8 \\ PTV70 & 61.54 & 78.49 & 76.3 & 119.8 \\\\
  \bottomrule\\
  \end{tabular}
 }
@@ -23,7 +23,7 @@ All patients presented in this thesis have been provided with a clinical plan ap
  \footnotesize
  \begin{tabular}{ccccc}
  \toprule
- \multicolumn{1}{c}{Patient 1} & \multicolumn{2}{c}{Clinical plan [Gy]} & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
+ \multicolumn{1}{c}{Patient 2} & \multicolumn{2}{c}{Clinical plan [Gy]} & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
  \cmidrule(r){1-1} \cmidrule(r){2-3}\cmidrule(r){4-5}
  Volume name & $D_\mathrm{mean}$ & $D_\mathrm{max}$ & $D_\mathrm{mean}$ & $D_\mathrm{max}$\\
  \midrule\\
@@ -42,11 +42,10 @@ BRSTEM & 16.47 & 43.68 & 12.09 & 42.03 \\CHIASM & 4.15 & 5.11 & 2.22 & 3.18 \\
  \footnotesize
  \begin{tabular}{ccccc}
  \toprule
- \multicolumn{1}{c}{Patient 1} & \multicolumn{2}{c}{Clinical plan [Gy]}  & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
+ \multicolumn{1}{c}{Patient 3} & \multicolumn{2}{c}{Clinical plan [Gy]}  & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
  \cmidrule(r){1-1} \cmidrule(r){2-3}\cmidrule(r){4-5}
  Volume name & $D_\mathrm{mean}$ & $D_\mathrm{max}$ & $D_\mathrm{mean}$ & $D_\mathrm{max}$\\
- \midrule\\
-BRAIN & 10.64 & 54.39 & 7.50 & 54.18 \\BRSTEM & 13.61 & 42.36 & 11.72 & 41.60 \\CHIASM & 2.75 & 3.18 & 2.11 & 3.14 \\CORD & 15.71 & 38.51 & 12.36 & 37.01 \\ESOPHAGUS & 34.70 & 72.31 & 31.07 & 71.35 \\LEYE & 1.34 & 4.05 & 1.08 & 2.66 \\LIPS & 13.72 & 30.34 & 14.84 & 27.82 \\LLACRIMAL & 1.56 & 3.04 & 0.88 & 1.45 \\LLENS & 1.27 & 2.21 & 1.31 & 1.94 \\LOPTIC & 2.93 & 3.38 & 1.72 & 2.66 \\LPAROTID & 40.94 & 76.24 & 33.48 & 74.74 \\LPLEXUS & 26.93 & 66.56 & 25.91 & 63.85 \\MANDIBLE & 34.43 & 73.87 & 47.60 & 75.90 \\REYE & 2.13 & 6.99 & 1.32 & 4.60 \\RLACRIMAL & 2.02 & 3.10 & 1.14 & 1.94 \\RLENS & 2.22 & 3.10 & 1.31 & 1.94 \\ROPTIC & 3.13 & 3.64 & 2.28 & 2.90 \\RPAROTID & 43.82 & 75.24 & 40.46 & 75.46 \\RPLEXUS & 29.89 & 72.13 & 31.46 & 72.32 \\\\\bottomrule\\CTV56 & 60.55 & 76.94 & 77.90 & 120.90 \\CTV70 & 69.96 & 76.52 & 81.60 & 120.90 \\GTV & 71.12 & 76.47 & 88.90 & 120.90 \\GTV50 & - & - & 94.40 & 120.90 \\GTV25 & - & - & 104.60 & 120.90 \\PTV56 & 35.33 & 76.94 & 72.60 & 120.90 \\PTV70 & 36.08 & 76.94 & 76.90 & 120.90 \\\\
+BRAIN & 10.64 & 54.39 & 6.09 & 50.06 \\BRSTEM & 13.61 & 42.36 & 11.17 & 39.13 \\CHIASM & 2.75 & 3.18 & 1.82 & 2.43 \\CORD & 15.71 & 38.51 & 14.91 & 41.31 \\ESOPHAGUS & 34.70 & 72.31 & 27.99 & 67.56 \\LEYE & 1.34 & 4.05 & 0.83 & 2.43 \\LIPS & 13.72 & 30.34 & 14.71 & 27.70 \\LLACRIMAL & 1.56 & 3.04 & 0.86 & 1.46 \\LLENS & 1.27 & 2.21 & 0.82 & 1.22 \\LOPTIC & 2.93 & 3.38 & 1.65 & 2.67 \\LPAROTID & 40.94 & 76.24 & 33.56 & 75.09 \\LPLEXUS & 26.93 & 66.56 & 23.55 & 57.11 \\MANDIBLE & 34.43 & 73.87 & 26.66 & 65.86 \\REYE & 2.13 & 6.99 & 1.04 & 2.67 \\RLACRIMAL & 2.02 & 3.10 & 0.86 & 1.46 \\RLENS & 2.22 & 3.10 & 1.03 & 1.46 \\ROPTIC & 3.13 & 3.64 & 1.66 & 2.67 \\RPAROTID & 43.82 & 75.24 & 34.74 & 70.23 \\RPLEXUS & 29.89 & 72.13 & 25.00 & 68.29 \\\\ \midrule\\ CTV56 & 60.55 & 76.94 & 77.70 & 121.50 \\CTV70 & 69.96 & 76.52 & 81.90 & 121.50 \\GTV & 71.12 & 76.47 & 89.10 & 121.50 \\GTV50 & - & - & 104.90 & 121.50 \\GTV25 & - & - & 94.60 & 121.50 \\PTV56 & 35.33 & 76.94 & 71.10 & 121.50 \\PTV70 & 36.08 & 76.94 & 76.80 & 121.50 \\\\
  \bottomrule\\
  \end{tabular}
 }
@@ -56,11 +55,11 @@ BRAIN & 10.64 & 54.39 & 7.50 & 54.18 \\BRSTEM & 13.61 & 42.36 & 11.72 & 41.60 \
  \footnotesize
  \begin{tabular}{ccccc}
  \toprule
- \multicolumn{1}{c}{Patient 1} & \multicolumn{2}{c}{Clinical plan [Gy]} & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
+ \multicolumn{1}{c}{Patient 4} & \multicolumn{2}{c}{Clinical plan [Gy]} & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
  \cmidrule(r){1-1} \cmidrule(r){2-3}\cmidrule(r){4-5}
  Volume name & $D_\mathrm{mean}$ & $D_\mathrm{max}$ & $D_\mathrm{mean}$ & $D_\mathrm{max}$\\
  \midrule\\
-BRAIN & 12.15 & 55.43 & 8.28 & 53.08 \\BRSTEM & 14.96 & 39.21 & 10.63 & 33.06 \\CORD & 15.91 & 38.47 & 13.85 & 39.36 \\ESOPHAGUS & 26.20 & 54.91 & 23.30 & 50.61 \\HYPOPHARYNX & 47.61 & 72.13 & 48.02 & 68.60 \\LARYNX & 47.57 & 74.76 & 44.25 & 68.37 \\LPAROTID & 23.06 & 63.33 & 22.50 & 58.48 \\MANDIBLE & 28.71 & 71.91 & 26.95 & 70.85 \\RPAROTID & 26.03 & 72.12 & 31.21 & 68.37 \\\\\\\\\\\\\\\\\\\\\\\\\bottomrule\\  CTV56 & 66.48 & 76.85 & 71.60 & 112.50 \\CTV70 & 68.50 & 76.85 & 74.40 & 112.50 \\GTV & 71.39 & 76.78 & 80.00 & 112.50 \\GTV50 & - & - & 86.00 & 112.50 \\GTV25 & - & - & 96.80 & 112.50 \\PTV56 & 59.00 & 76.85 & 67.70 & 112.50 \\PTV70 & 65.40 & 76.85 & 71.20 & 112.50 \\\\
+BRAIN & 12.15 & 55.43 & 8.28 & 53.08 \\BRSTEM & 14.96 & 39.21 & 10.63 & 33.06 \\CORD & 15.91 & 38.47 & 13.85 & 39.36 \\ESOPHAGUS & 26.20 & 54.91 & 23.30 & 50.61 \\HYPOPHARYNX & 47.61 & 72.13 & 48.02 & 68.60 \\LARYNX & 47.57 & 74.76 & 44.25 & 68.37 \\LPAROTID & 23.06 & 63.33 & 22.50 & 58.48 \\MANDIBLE & 28.71 & 71.91 & 26.95 & 70.85 \\RPAROTID & 26.03 & 72.12 & 31.21 & 68.37 \\\\\\\\\\\\\\\\\\\\\\\bottomrule\\  CTV56 & 66.48 & 76.85 & 71.60 & 112.50 \\CTV70 & 68.50 & 76.85 & 74.40 & 112.50 \\GTV & 71.39 & 76.78 & 80.00 & 112.50 \\GTV50 & - & - & 86.00 & 112.50 \\GTV25 & - & - & 96.80 & 112.50 \\PTV56 & 59.00 & 76.85 & 67.70 & 112.50 \\PTV70 & 65.40 & 76.85 & 71.20 & 112.50 \\\\
  \bottomrule\\
  \end{tabular}
 }
@@ -75,25 +74,93 @@ BRAIN & 12.15 & 55.43 & 8.28 & 53.08 \\BRSTEM & 14.96 & 39.21 & 10.63 & 33.06 \
  \footnotesize
  \begin{tabular}{ccccc}
  \toprule
- \multicolumn{1}{c}{Patient 1} & \multicolumn{2}{c}{Clinical plan [Gy]}  & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
+ \multicolumn{1}{c}{Patient 5} & \multicolumn{2}{c}{Clinical plan [Gy]}  & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
  \cmidrule(r){1-1} \cmidrule(r){2-3}\cmidrule(r){4-5}
  Volume name & $D_\mathrm{mean}$ & $D_\mathrm{max}$ & $D_\mathrm{mean}$ & $D_\mathrm{max}$\\
- \midrule\\
-BRAIN & 10.44 & 53.75 & 5.42 & 44.52 \\BRSTEM & 16.65 & 49.23 & 11.74 & 44.75 \\CHIASM & 3.09 & 3.58 & 2.11 & 3.03 \\CORD & 17.83 & 43.31 & 14.97 & 44.05 \\ESOPHAGUS & 25.75 & 58.55 & 18.65 & 55.24 \\LARYNX & 50.06 & 71.77 & 38.94 & 68.76 \\LEYE & 2.32 & 6.27 & 1.48 & 3.73 \\LIPS & 16.75 & 57.99 & 27.65 & 50.81 \\LLACRIMAL & 2.37 & 2.91 & 1.24 & 1.87 \\LLENS & 2.56 & 3.33 & 1.45 & 1.87 \\LNECK & 57.64 & 75.84 & 52.04 & 75.52 \\LOPTIC & 3.54 & 4.19 & 2.20 & 3.50 \\LPAROTID & 33.20 & 75.74 & 32.75 & 67.36 \\LPHARYNGEAL & 62.12 & 72.91 & 52.79 & 72.02 \\MANDIBLE & 37.41 & 74.39 & 38.08 & 75.05 \\REYE & 2.96 & 6.96 & 1.82 & 4.20 \\RLACRIMAL & 2.81 & 3.67 & 1.62 & 2.33 \\RLENS & 2.99 & 3.66 & 1.80 & 2.56 \\RNECK & 54.13 & 76.20 & 44.39 & 82.51 \\ROPTIC & 3.74 & 4.45 & 2.41 & 3.26 \\RPAROTID & 29.44 & 73.20 & 34.81 & 67.36 \\RPHARYNGEAL & 61.55 & 73.29 & 50.33 & 75.75 \\\\\bottomrule\\CTV56 & 42.57 & 77.35 & 73.00 & 116.60 \\CTV70 & 46.45 & 77.35 & 76.60 & 116.60 \\GTV & 69.81 & 77.00 & 85.50 & 116.60 \\GTV50 & - & - & 91.20 & 116.60 \\GTV25 & - & - & 100.70 & 116.60 \\PTV56 & 35.30 & 77.35 & 71.70 & 116.60 \\PTV70 & 35.97 & 77.35 & 68.10 & 116.60 \\\\
- \bottomrule\\
+\midrule\\
+BRAIN & 10.44 & 53.75 & 5.93 & 48.90 \\BRSTEM & 16.65 & 49.23 & 11.60 & 43.59 \\CHIASM & 3.09 & 3.58 & 2.08 & 3.00 \\CORD & 17.83 & 43.31 & 15.41 & 44.29 \\ESOPHAGUS & 25.75 & 58.55 & 19.45 & 55.59 \\LARYNX & 50.06 & 71.77 & 41.52 & 64.12 \\LEYE & 2.32 & 6.27 & 1.45 & 3.46 \\LIPS & 16.75 & 57.99 & 27.25 & 43.82 \\LLACRIMAL & 2.37 & 2.91 & 1.19 & 1.62 \\LLENS & 2.56 & 3.33 & 1.41 & 1.85 \\LOPTIC & 3.54 & 4.19 & 2.14 & 3.23 \\LPAROTID & 33.20 & 75.74 & 32.58 & 68.27 \\LPHARYNGEAL & 62.12 & 72.91 & 51.36 & 65.97 \\MANDIBLE & 37.41 & 74.39 & 26.26 & 59.74 \\REYE & 2.96 & 6.96 & 1.77 & 4.15 \\RLACRIMAL & 2.81 & 3.67 & 1.55 & 2.31 \\RLENS & 2.99 & 3.66 & 1.48 & 2.31 \\ROPTIC & 3.74 & 4.45 & 2.50 & 3.23 \\RPAROTID & 29.44 & 73.20 & 29.30 & 70.12 \\RPHARYNGEAL & 61.55 & 73.29 & 54.46 & 70.81 \\\\\\
+\midrule\\         CTV56 & 42.57 & 77.35 & 73.00 & 115.40 \\CTV70 & 46.45 & 77.35 & 76.90 & 115.40 \\GTV & 69.81 & 77.00 & 85.50 & 115.40 \\GTV25 & - & - & 100.50 & 115.40 \\GTV50 & - & - & 91.20 & 115.40 \\PTV56 & 35.30 & 77.35 & 70.70 & 115.40 \\PTV70 & 35.97 & 77.35 & 66.90 & 115.40 \\\\
+\bottomrule\\
  \end{tabular}
 }
 \hspace{0.5cm}
-\subfigure[Patient 4]{
+\subfigure[Patient 6]{
  \centering
  \footnotesize
  \begin{tabular}{ccccc}
  \toprule
- \multicolumn{1}{c}{Patient 1} & \multicolumn{2}{c}{Clinical plan [Gy]} & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
+ \multicolumn{1}{c}{Patient 6} & \multicolumn{2}{c}{Clinical plan [Gy]} & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
  \cmidrule(r){1-1} \cmidrule(r){2-3}\cmidrule(r){4-5}
  Volume name & $D_\mathrm{mean}$ & $D_\mathrm{max}$ & $D_\mathrm{mean}$ & $D_\mathrm{max}$\\
  \midrule\\
-BRAIN & 15.93 & 77.36 & 10.02 & 75.23 \\BRSTEM & 29.12 & 55.76 & 20.84 & 50.08 \\CHIASM & 30.59 & 51.82 & 14.70 & 32.61 \\CORD & 17.23 & 41.62 & 15.03 & 41.92 \\ESOPHAGUS & 35.76 & 74.35 & 27.06 & 69.64 \\LACOUSTIC & 34.22 & 50.04 & 29.80 & 42.86 \\LARYNX & 46.62 & 74.23 & 34.44 & 72.20 \\LEYE & 2.87 & 7.52 & 1.42 & 4.43 \\LIPS & 14.50 & 42.47 & 11.93 & 37.50 \\LLACRIMAL & 3.06 & 4.75 & 1.15 & 2.10 \\LLENS & 3.29 & 3.91 & 1.23 & 1.63 \\LOPTIC & 17.92 & 43.16 & 7.67 & 20.50 \\LPAROTID & 37.38 & 76.52 & 27.38 & 68.71 \\MANDIBLE & 44.60 & 73.74 & 33.41 & 69.87 \\POSTCRICOID & 51.11 & 75.17 & 37.26 & 72.67 \\RACOUSTIC & 39.95 & 49.49 & 28.67 & 46.58 \\REYE & 4.55 & 15.51 & 2.10 & 7.45 \\RLACRIMAL & 4.50 & 8.95 & 1.48 & 2.80 \\RLENS & 3.94 & 5.01 & 1.54 & 2.10 \\ROPTIC & 19.60 & 45.38 & 9.85 & 24.46 \\RPAROTID & 46.79 & 74.75 & 32.18 & 72.67 \\\\\\\bottomrule\\       CTV56 & 41.55 & 78.02 & 75.60 & 116.50 \\CTV70 & 60.76 & 78.02 & 80.90 & 116.50 \\GTV & 63.50 & 77.03 & 86.90 & 116.50 \\GTV25 & - & - & 93.40 & 116.50 \\GTV50 & - & - & 102.80 & 116.50 \\PTV56 & 34.84 & 78.02 & 68.90 & 116.50 \\PTV70 & 35.71 & 78.02 & 74.80 & 116.50 \\\\
+BRAIN & 15.93 & 77.36 & 10.86 & \textbf{89.33} \\BRSTEM & 29.12 & 55.76 & 9.59 & 38.25 \\CHIASM & 30.59 & 51.82 & 12.69 & 30.32 \\CORD & 17.23 & 41.62 & 11.10 & 38.02 \\ESOPHAGUS & 35.76 & 74.35 & 28.47 & 70.44 \\LACOUSTIC & 34.22 & 50.04 & 22.61 & 35.22 \\LARYNX & 46.62 & 74.23 & 25.15 & 73.47 \\LEYE & 2.87 & 7.52 & 1.35 & 3.73 \\LIPS & 14.50 & 42.47 & 12.37 & 38.48 \\LLACRIMAL & 3.06 & 4.75 & 1.20 & 2.10 \\LLENS & 3.29 & 3.91 & 1.22 & 1.63 \\LOPTIC & 17.92 & 43.16 & 7.22 & 18.19 \\LPAROTID & 37.38 & 76.52 & 33.01 & 73.47 \\MANDIBLE & 44.60 & 73.74 & 31.51 & 67.17 \\POSTCRICOID & 51.11 & 75.17 & 17.34 & 40.35 \\RACOUSTIC & 39.95 & 49.49 & 23.44 & 41.98 \\REYE & 4.55 & 15.51 & 1.91 & 5.60 \\RLACRIMAL & 4.50 & 8.95 & 1.46 & 2.33 \\RLENS & 3.94 & 5.01 & 1.71 & 2.10 \\ROPTIC & 19.60 & 45.38 & 8.75 & 22.16 \\RPAROTID & 46.79 & 74.75 & 33.22 & 72.53 \\\\\midrule\\     CTV56 & 41.55 & 78.02 & 75.70 & 116.60 \\CTV70 & 60.76 & 78.02 & 81.20 & 116.60 \\GTV & 63.50 & 77.03 & 87.20 & 116.60 \\GTV25 & - & - & 102.50 & 116.60 \\GTV50 & - & - & 93.30 & 116.60 \\PTV56 & 34.84 & 78.02 & 68.40 & 116.60 \\PTV70 & 35.71 & 78.02 & 74.70 & 116.60 \\\\
+ \bottomrule\\
+ \end{tabular}
+}
+\end{sidewaystable}
+
+% pat 7 pat 8 
+
+\begin{sidewaystable}[p]
+\hspace{1cm}
+\subfigure[Patient 7]{
+ \centering
+ \footnotesize
+ \begin{tabular}{ccccc}
+ \toprule
+ \multicolumn{1}{c}{Patient 7} & \multicolumn{2}{c}{Clinical plan [Gy]}  & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
+ \cmidrule(r){1-1} \cmidrule(r){2-3}\cmidrule(r){4-5}
+ Volume name & $D_\mathrm{mean}$ & $D_\mathrm{max}$ & $D_\mathrm{mean}$ & $D_\mathrm{max}$\\
+\midrule\\
+BRAIN & 12.24 & 54.07 & 7.57 & 49.78 \\BRSTEM & 15.77 & 47.25 & 11.37 & 39.30 \\CHIASM & 3.39 & 4.44 & 1.80 & 3.10 \\CORD & 17.47 & 42.92 & 12.29 & 40.73 \\ESOPHAGUS & 24.12 & 58.21 & 20.37 & 55.97 \\LARYNX & 46.65 & 63.82 & 35.97 & 53.11 \\LEYE & 1.68 & 3.60 & 0.82 & 2.38 \\LIPS & 23.66 & 59.29 & 25.71 & 55.49 \\LLACRIMAL & 1.85 & 2.28 & 0.74 & 1.19 \\LLENS & 1.84 & 2.63 & 0.78 & 1.19 \\LOPTIC & 3.18 & 4.15 & 1.58 & 2.86 \\LPAROTID & 30.34 & 76.23 & 28.80 & 69.78 \\LPLEXUS & 27.62 & 61.73 & 27.54 & 59.54 \\LPHARYNGEAL & 64.46 & 78.26 & 36.38 & 64.54 \\MANDIBLE & 38.35 & 74.57 & 26.03 & 60.49 \\POSTCRICOID & 46.74 & 64.57 & 38.92 & 51.92 \\REYE & 1.67 & 3.50 & 0.76 & 2.14 \\RLACRIMAL & 1.72 & 2.41 & 0.59 & 1.19 \\RLENS & 1.79 & 2.45 & 0.73 & 1.19 \\ROPTIC & 2.98 & 4.40 & 1.45 & 3.10 \\RPAROTID & 31.29 & 74.27 & 27.29 & 66.21 \\RPLEXUS & 27.55 & 63.64 & 24.13 & 58.11 \\RPHARYNGEAL & 59.66 & 74.46 & 53.37 & 67.64 \\\\\midrule\\      CTV56 & 68.53 & 78.52 & 72.20 & 119.10 \\CTV70 & 70.68 & 78.47 & 76.40 & 119.10 \\GTV & 71.58 & 78.26 & 84.70 & 119.10 \\GTV25 & - & - & 99.50 & 119.10 \\GTV50 & - & - & 91.90 & 119.10 \\PTV56 & 61.76 & 78.52 & 67.50 & 119.10 \\PTV70 & 67.79 & 78.52 & 71.20 & 119.10 \\\\
+\bottomrule\\
+ \end{tabular}
+}
+\hspace{0.5cm}
+\subfigure[Patient 8]{
+ \centering
+ \footnotesize
+ \begin{tabular}{ccccc}
+ \toprule
+ \multicolumn{1}{c}{Patient 8} & \multicolumn{2}{c}{Clinical plan [Gy]} & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
+ \cmidrule(r){1-1} \cmidrule(r){2-3}\cmidrule(r){4-5}
+ Volume name & $D_\mathrm{mean}$ & $D_\mathrm{max}$ & $D_\mathrm{mean}$ & $D_\mathrm{max}$\\
+ \midrule\\
+BRAIN & 9.30 & 58.02 & 5.06 & 50.89 \\BRSTEM & 15.06 & 52.32 & 10.10 & 33.65 \\CHIASM & 1.86 & 2.19 & 0.94 & 1.64 \\CORD & 15.69 & 40.41 & 13.85 & 41.24 \\ESOPHAGUS & 27.72 & 58.58 & 18.07 & 52.12 \\LARYNX & 38.33 & 69.03 & 12.43 & 47.19 \\LEYE & 1.08 & 2.06 & 0.33 & 1.03 \\LIPS & 12.17 & 27.37 & 9.70 & 24.83 \\LLACRIMAL & 0.81 & 1.28 & 0.22 & 0.62 \\LLENS & 1.31 & 1.56 & 0.41 & 0.62 \\LOPTIC & 1.50 & 2.01 & 0.55 & 1.23 \\LPAROTID & 24.38 & 61.73 & 20.78 & 53.76 \\MANDIBLE & 26.68 & 72.56 & 20.23 & 67.51 \\POSTCRICOID & 42.17 & 69.67 & 21.26 & 62.17 \\REYE & 1.18 & 2.40 & 0.33 & 1.23 \\RLACRIMAL & 1.14 & 1.64 & 0.22 & 0.62 \\RLENS & 1.43 & 1.76 & 0.41 & 0.62 \\ROPTIC & 1.74 & 2.07 & 0.72 & 1.44 \\RPAROTID & 37.17 & 75.37 & 22.41 & 65.05 \\RPHARYNGEAL & 59.32 & 73.91 & 31.38 & 60.53 \\\\\\\\\\\midrule\\       CTV56 & 66.88 & 75.91 & 41.68 & 94.59 \\CTV70 & 71.54 & 75.91 & 49.23 & 94.59 \\GTV25 & - & - & 52.82 & 94.59 \\GTV50 & - & - & 67.72 & 94.59 \\
+HTV & 71.70 & 74.43 & 64.52 & 94.59 \\PTV56 & 61.21 & 75.91 & 37.14 & 94.59 \\PTV70 & 68.03 & 75.91 & 41.98 & 94.59 \\\
+ \bottomrule\\
+ \end{tabular}
+}
+\end{sidewaystable}
+
+% pat 9 pat 10 
+
+\begin{sidewaystable}[p]
+\hspace{1cm}
+\subfigure[Patient 9]{
+ \centering
+ \footnotesize
+ \begin{tabular}{ccccc}
+ \toprule
+ \multicolumn{1}{c}{Patient 9} & \multicolumn{2}{c}{Clinical plan [Gy]}  & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
+ \cmidrule(r){1-1} \cmidrule(r){2-3}\cmidrule(r){4-5}
+ Volume name & $D_\mathrm{mean}$ & $D_\mathrm{max}$ & $D_\mathrm{mean}$ & $D_\mathrm{max}$\\
+\midrule\\
+BRAIN & 10.89 & 51.98 & 6.96 & 45.44 \\BRSTEM & 17.47 & 50.79 & 14.37 & 43.96 \\CORD & 16.53 & 42.40 & 13.56 & 41.74 \\ESOPHAGUS & 25.31 & 59.74 & 21.66 & 55.56 \\LARYNX & 51.47 & 74.56 & 28.44 & 61.99 \\LIPS & 11.13 & 27.64 & 8.00 & 21.73 \\LPAROTID & 28.95 & 72.93 & 20.04 & 61.99 \\MANDIBLE & 28.04 & 72.87 & 23.88 & 72.11 \\POSTCRICOID & 46.64 & 69.85 & 38.61 & 57.05 \\RPAROTID & 31.93 & 73.86 & 22.48 & 64.46 \\\\\\\\\\\\\\\\\\\\\\\midrule\\      CTV56 & 68.38 & 77.30 & 76.20 & 123.47 \\CTV70 & 70.87 & 77.30 & 81.40 & 123.47 \\GTV & 71.41 & 76.18 & 89.40 & 123.47 \\GTV25 & - & - & 107.50 & 123.47 \\GTV50 & - & - & 97.40 & 123.47 \\PTV56 & 61.85 & 77.30 & 69.30 & 123.47 \\PTV70 & 67.06 & 77.30 & 75.70 & 123.47 \\\\
+\bottomrule\\
+ \end{tabular}
+}
+\hspace{0.5cm}
+\subfigure[Patient 10]{
+ \centering
+ \footnotesize
+ \begin{tabular}{ccccc}
+ \toprule
+ \multicolumn{1}{c}{Patient 8} & \multicolumn{2}{c}{Clinical plan [Gy]} & \multicolumn{2}{c}{Biological dose painting [Gy]}\\
+ \cmidrule(r){1-1} \cmidrule(r){2-3}\cmidrule(r){4-5}
+ Volume name & $D_\mathrm{mean}$ & $D_\mathrm{max}$ & $D_\mathrm{mean}$ & $D_\mathrm{max}$\\
+ \midrule\\
+BRAIN & 11.48 & 68.31 & 2.20 & 66.00 \\BRSTEM & 18.93 & 51.32 & 10.85 & 38.29 \\CHIASM & 4.02 & 4.88 & 2.12 & 3.05 \\CORD & 16.24 & 38.24 & 12.51 & 38.53 \\ESOPHAGUS & 24.20 & 55.57 & 19.02 & 52.86 \\LARYNX & 45.25 & 72.58 & 22.66 & 67.43 \\LEYE & 2.05 & 3.62 & 0.91 & 1.88 \\LIPS & 10.84 & 37.03 & 15.63 & 32.66 \\LLENS & 2.40 & 2.94 & 0.94 & 1.18 \\LOPTIC & 3.07 & 4.73 & 1.72 & 3.05 \\LPAROTID & 27.05 & 65.41 & 23.81 & 59.67 \\LPLEXUS & 26.60 & 60.29 & 30.90 & 57.40 \\LPHARYNGEAL & 59.72 & 76.90 & 55.46 & 74.24 \\MANDIBLE & 32.30 & 74.87 & 28.50 & 74.24 \\POSTCRICOID & 42.98 & 68.26 & 31.80 & 58.50 \\ROPTIC & 3.38 & 5.06 & 1.95 & 2.82 \\RPAROTID & 40.15 & 76.44 & 27.23 & 72.83 \\RPLEXUS & 27.41 & 68.00 & 30.70 & 63.10 \\RPHARYNGEAL & 64.08 & 76.57 & 64.96 & \textbf{111.12} \\\\\midrule\\      CTV56 & 65.66 & 78.41 & 79.60 & 117.50 \\CTV70 & 72.07 & 78.41 & 88.60 & 117.50 \\GTV25 & - & - & 101.90 & 117.50 \\GTV50 & - & - & 94.90 & 117.50 \\PTV56 & 55.89 & 78.41 & 71.90 & 117.50 \\PTV70 & 65.45 & 78.41 & 79.20 & 117.50 \\\\\\
  \bottomrule\\
  \end{tabular}
 }

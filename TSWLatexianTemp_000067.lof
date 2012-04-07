@@ -1,0 +1,38 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Overview on the physical effect responsible for the energy loss of photons in matter. Photoelectric effect with nucleus [black circle] (left), Compton effect (middle) and Pair production (right).\relax }}{3}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Total cross section $\mu $ in units of barn (10$^{-28}$m$^2$) in the region from 1 eV up to 10 GeV. For radiotherapy, the Compton effect is most prevalent, as the common energies are in the range of a few MeV.\relax }}{7}{figure.caption.5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Damage mechanism of single and double strand breaks in DNA through ionizing radiation. Single stand breaks are only assigned to radiation damage that is created by one particle track, while double stand breaks are generated either by two seperate single tracks or a single track creating single strand breaks in two DNA strands. Figure adapted from reference \cite {FreseThesis}.\relax }}{10}{figure.caption.6}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces HIF-1$\alpha $ mechanism for the transcription of proteins in DNA that increase cell survival in tumour cells in hypoxic environments. Figure adapted from reference \cite {pmid18523070}.\relax }}{14}{figure.caption.9}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces HRF model fit to original data from \textit {Carlson et al.}\cite {pmid21183291}. The new fit to the original data allowed an estimate on the error on $K$ and $m$ for the robustness analysis in chapter \ref {chapter:6}.\relax }}{17}{figure.caption.11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Different possibililties of coincidences in a circular PET detector. True coincidence (top left) generating a clear LOR, scattered coincidence (top right) which shifts the LOR. Random coincidences (bottom left) describes the LOR created from two seperate events with only two detector signals, while multiple coincidences describe complete events with two signals each generating multiple LOR.\relax }}{25}{figure.caption.12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Chemical structure of common tracers used in PET. FMISO and Cu-ATSM are commonly used in current studies, while studies with FAZA, FETA and FETNIM are on the way. FDG can be administered as a hypoxia tracer but is usually deployed for the use of staging.\relax }}{28}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {FMISO}}}{28}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {FDG}}}{28}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cu-ATSM}}}{28}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {FAZA}}}{28}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {FETA}}}{28}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {FETNIM}}}{28}{figure.caption.13}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Retention mechanism of FMISO in the environment of oxygen. Figure adopted from reference \cite {pmid18523070}.\relax }}{29}{figure.caption.15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Transformation of FMISO PET SUV to oxygen partial pressure derived from the parameters of the model developed by \textit {Chang et al.}\cite {pmid19994538} . Dotted and dashed line show the impact of the error of the model parameter $p_{50} = 6.4 \pm 5.4$ mmHg on the shape of curve.\relax }}{32}{figure.caption.23}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces (Left) Eppendorf polarographic needle electrode in a section of neck node metastasis taken from \textit {Nordsmark et al.}\cite {pmid8018370}. (Right) Close up of an Eppendorf electrode taken from \textit {Seddon et al.}\cite {pmid11352767}\relax }}{36}{figure.caption.24}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Dose volume histograms for the GTV of the clinical plan (green) and all volumes from biological dose painting: GTV (red), GTV$_{5.0}$ (blue), GTV$_{2.5}$ (magenta). Patient 2 did not have a GTV$_{2.5}$ as the GTV was to small. Complete delivery is not possible to the GTV and hypoxic sub volumes. Desired dose values are $D_{2.5} = 126$ Gy for the 2.5 mmHg sub volume, $D_{5.0} = 105.7$ Gy for the 5.0 mmHg sub volume and $D_\mathrm {GTV} = 91$ Gy for the GTV which was assigned with 10 mmHg.\relax }}{55}{figure.caption.31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ratio $R$ of delivered biological effect in the GTV divided by the prescribed effect. If $R>1$, the voxel is over dose, while $R<1$ can be interpreted as under dose. $R$ distributions show clinical plan (green) and dose painted plan (red). There are no significant changes in desired biological effect delivery. Patient 4 shows a slight change as the neck volumes had a larger overlap with the GTV.\relax }}{57}{figure.caption.32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces eDVH of GTV for all treated patients with biological dose painting. The biological effect of the delivered plan (blue) reduced through hypoxia is based on the clinical plan (green). Dose painting (red) is able to compensate for hypoxia by increasing the dose to such volumes. The dip in the eDVH for the delivered plan (blue) stems from the 2.5 mmHg hypoxia level.\relax }}{59}{figure.caption.33}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Impact on the HRF from PET FMISO SUV for all 27 different parameter combinations. Plot shows the range of different functional behaviours that are induced through parameter combinations. In case of $p_{50}$, the function changes from convex to a concave functional behaviour. This is mainly due to the reason, that the pO2 model interprets most voxels as hypoxic.\relax }}{64}{figure.caption.34}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Impact of model uncertainties on the HRF derived from the signal of a PET FMISO image in the SUV range of 0 up to 3.17. The lowest impact on the HRF prescriptions is seen with $K$, while $p_{50}$ and $m$ introduce the largest HRF changes in the transformation model. Colour scale shows the HRF between 2.87 (red) and 1.0 (blue) while lines show combinations that generate the same HRF.\relax }}{65}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$K=1.81$ mmHg, $m=2.77$}}}{65}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$K=2.07$ mmHg, $m=2.87$}}}{65}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$K=1.81$ mmHg, $p_{50}=1$ mmHg}}}{65}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$K=2.07$ mmHg, $p_{50}=11.8$ mmHg}}}{65}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m=2.77$ mmHg, $p_{50}=11.8$ mmHg}}}{65}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m=2.87$ mmHg, $p_{50}=1$ mmHg}}}{65}{figure.caption.35}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Impact of model parameters uncertainties on the eDVH for patient 1 based on the approved biological dose painted plan with mean values for $K$, $m$ and $p_{50}$.\relax }}{68}{figure.caption.39}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
